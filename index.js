@@ -44,10 +44,13 @@ Use the copy function below to do the following:
   1. receive an array as a parameter - you will pass in originalFlavors as an argument when the function is invoked.
   2. Return a copy of the received array  
 */
-
-function copy(/*your code here*/){
-  /*your code here*/
+function copy(array){
+  let originalCopy = [];
+  originalCopy = [...array];
+  console.log(originalCopy);
+  return originalCopy;
 }    
+copy(originalFlavors);
 
 
 
