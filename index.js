@@ -62,7 +62,7 @@ Confirm that an array is exactly 31 flavors. Your function should accept:
 
 For Example: is31Flavors(originalFlavors) will return true if your code is working properly
 */
-
+  x = new Boolean(false);
 function is31Flavors(array) {
   if (array.length == 31) {
     x = new Boolean(true);
